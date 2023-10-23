@@ -64,3 +64,11 @@ Para hacer pruebas de peticiones hay que introducir esta URL en el navegador:
 `http://localhost:8080/price/filter/2020-06-15-17:00:00/35455/1`
 
 Adjunto el fichero postman_collection.json por si se desean importar los endpoint en Postman y ejecutarlos desde ahí.
+
+## Test
+Los test se pueden ejecutar mediante `./mvnw test`.
+Todos los test se han desarrollado con JUnit y además he añadido el plugin de JaCoCo para medir la cobertura de estos.
+Para consultar el report de cobertura hay que ejecutar los test y dirigirse a ./target/site/jacoco/index.html.
+
+Cualquier duda con la prueba me la pueden hacer llegar a carlosdonderis96@gmail.com .
+
